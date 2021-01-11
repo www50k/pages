@@ -1,0 +1,9 @@
+CURRENT   NAME                                                     CLUSTER                                                  AUTHINFO                                                 NAMESPACE
+          arn:aws:eks:ap-south-1:115234411479:cluster/dees-cloud   arn:aws:eks:ap-south-1:115234411479:cluster/dees-cloud   arn:aws:eks:ap-south-1:115234411479:cluster/dees-cloud   
+          minikube                                                 minikube                                                 minikube                                                 
+
+kubectl config use-context arn:aws:eks:ap-south-1:115234411479:cluster/dees-cloud
+
+kubectl run page-pod --image=<image name> --dry-run=client -o yml === to run a po from image & see the yaml
+
+kubectl explain pod.apiVersion == to see more info.
