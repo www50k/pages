@@ -1,0 +1,1 @@
+curl -i -XPUT -H"Content-Type: application/json" localhost:8080/pages/1 -d"{\"businessName\": \"Uber Technologies\", \"address\": \"SanFrancisco, CA, USA\", \"categoryId\": 123, \"contactNumber\": \"0045987869\"}"
